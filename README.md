@@ -2,9 +2,8 @@
 
 TAP: A Static Analysis Model for PHP Vulnerabilities Based on Token and Deep Learning Technology
 
-## Data 
 
-Download from
+Data download from
 ```
 https://samate.nist.gov/SARD/index.php
 ```
