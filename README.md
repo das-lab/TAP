@@ -50,8 +50,15 @@ Classify samples.
 python classify.py
 ```
 
+Delete three subsets of less than 10 samples, which are
+```
+CWE-209: Information Exposure Through an Error Message, 
+CWE-311: Missing Encryption of Sensitive Data 
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm.
+```
+
 Correct some errors of SARD manually. 
-![](./sarderrors.png) 
+![Errors](./sarderrors.png) 
 
 Get tokens by our tokenizer.
 ```
@@ -69,4 +76,4 @@ python confusion_matrix.py
 ```
 
 Result.
-![](./result/tapcmNor.png)
+![Results](./result/tapcmNor.png)
